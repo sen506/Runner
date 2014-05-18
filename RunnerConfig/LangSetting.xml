@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Example
+    Using format below to modify language setting 
+    <language>
+        <langextname>setting before compile;compiler;invoker;compiler parameter</langextname>
+        ...
+    </language>
+-->
+
+<language>
+	<py>;;python.exe;</py>
+	<c>vcvars32.bat;cl.exe;;/GL /EHsc /nologo</c>
+	<cpp>vcvars32.bat;cl.exe;;/GL /EHsc /nologo</cpp>
+	<java>;javac.exe;java.exe;</java>
+    <html>;;iexplore.exe;</html>
+    <htm>;;iexplore.exe;</htm>
+    <xml>;;iexplore.exe;</xml>
+    <bat>;;cmd.exe /c;</bat>   
+    <cmd>;;cmd.exe /c;</cmd>   
+    <vbs>;;wscript.exe;//e:vbscript</vbs>
+    <vba>;;wscript.exe;//e:vbscript</vba>
+	<jy>;;jython.bat;</jy>
+</language>

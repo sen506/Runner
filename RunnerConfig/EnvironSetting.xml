@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+    You can treat it as another system environment, all variable you add here will be added to real sys environment automatically;
+    Notice that python.exe must be added to real sys environment by your self;
+    Please refer to the following examples;
+-->
+
+<environ>
+    <classpath>.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;E:\Tomcat\lib\servlet-api.jar;E:\tomcat\lib\mysql-connector-java-5.1.18-bin.jar;%sp%\*;%clx%\commons-logging-1.1.3.jar;%jdom%\jdom-2.0.5.jar;%aspectj%\*</classpath>
+    <java_home>C:\Program Files\Java\jdk1.7.0_45</java_home>
+    <path>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files\Internet Explorer;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\jython2.7b1;</path>
+    <sp>D:\Java Jars\spring-framework-4.04\libs</sp>
+    <clx>D:\Java Jars\commons-logging-1.1.3</clx>
+    <jdom>D:\Java Jars\jdom-2.0.5</jdom>
+    <aspectj>D:\Java Jars\AspectJ</aspectj>
+</environ>
